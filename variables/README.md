@@ -1,6 +1,6 @@
 # Variables
 
-Variables in a Ruby Class
+Variables are the memory locations, which hold any data to be used by any program.
 
 Ruby provides four types of variables −
 
@@ -23,3 +23,4 @@ Ruby provides four types of variables −
     classes. If you want to have a single variable, which is available 
     across classes, you need to define a global variable. The global 
     variables are always preceded by the dollar sign ($).
+

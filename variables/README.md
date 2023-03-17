@@ -23,3 +23,7 @@ Ruby provides four types of variables −
     across classes, you need to define a global variable. The global 
     variables are always preceded by the dollar sign ($).
 
+
+# NOTE − 
+    
+    In Ruby, you CAN access value of any variable or constant by putting a hash (#) character just before that variable or constant.

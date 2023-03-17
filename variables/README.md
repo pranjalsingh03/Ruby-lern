@@ -6,8 +6,7 @@ Ruby provides four types of variables −
 
     1. Local Variables − Local variables are the variables that are
     defined in a method. Local variables are not available outside the 
-    method. You will see more details about method in subsequent chapter. 
-    Local variables begin with a lowercase letter or _.
+    method. Local variables begin with a lowercase letter or _.
 
     2. Instance Variables − Instance variables are available across 
     methods for any particular instance or object. That means that 

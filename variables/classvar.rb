@@ -21,7 +21,10 @@ end
 # Create Objects
 cust1 = Customer.new('1', 'John', 'Wisdom Apartments, Ludhiya')
 cust2 = Customer.new('2', 'Poul', 'New Empire road, Khandala')
-
+cust3 = Customer.new('1', 'John', 'Wisdom Apartments, Ludhiya')
+cust4 = Customer.new('2', 'Poul', 'New Empire road, Khandala')
 # Call Methods
 cust1.total_no_of_customers
 cust2.total_no_of_customers
+cust3.total_no_of_customers
+cust4.total_no_of_customers

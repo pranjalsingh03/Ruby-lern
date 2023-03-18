@@ -44,5 +44,5 @@ They are special variables that have the appearance of local variables but behav
 
 
 <h2>NOTE</h2>
-<hr> 
+
 1.    In Ruby, you CAN access value of any variable or constant by putting a hash (#) character just before that variable or constant.

@@ -1,4 +1,4 @@
-# Variables
+# Variables 
 
 Variables are the memory locations, which hold any data to be used by any program.
 
@@ -22,8 +22,8 @@ Ruby provides four types of variables −
     classes. If you want to have a single variable, which is available 
     across classes, you need to define a global variable. The global 
     variables are always preceded by the dollar sign ($).
+<br>
 
-
-# NOTE − 
-    
-    In Ruby, you CAN access value of any variable or constant by putting a hash (#) character just before that variable or constant.
+<h2>NOTE</h2>
+<hr> 
+1.    In Ruby, you CAN access value of any variable or constant by putting a hash (#) character just before that variable or constant.

@@ -96,15 +96,15 @@ Following is the list of Backslash notations supported by Ruby -
 <tr><td>\r</td> 	<td>Carriage return (0x0d)</td><tr>
 <td>\f</td> 	<td>Formfeed (0x0c)</td></tr><tr>
 <td>\b </td>	<td>Backspace (0x08)</td></tr>
-\a 	Bell (0x07)
-\e 	Escape (0x1b)
-\s 	Space (0x20)
-\nnn 	Octal notation (n being 0-7)
-\xnn 	Hexadecimal notation (n being 0-9, a-f, or A-F)
-\cx, \C-x 	Control-x
-\M-x 	Meta-x (c | 0x80)
-\M-\C-x 	Meta-Control-x
-\x 	Character x
+<td>\a </td>	<td>Bell (0x07)</td></tr><tr>
+<td>\e</td> 	<td>Escape (0x1b)</td></tr><tr>
+<td>\s</td> <td>	Space (0x20)</td></tr><tr>
+<td>\nnn </td>	<td>Octal notation (n being 0-7)</td></tr><tr>
+<td>\xnn</td> <td>	Hexadecimal notation (n being 0-9, a-f, or A-F)</td></tr><tr>
+<td>\cx, \C-x </td><td>	Control-x</td></tr><tr>
+<td>\M-x </td> <td>	Meta-x (c | 0x80)</td></tr><tr>
+<td>\M-\C-x </td><td>	Meta-Control-x</td></tr><tr>
+<td>\x </td><td>	Character x</td></tr>
 </table>
 <h2>NOTE</h2>
 

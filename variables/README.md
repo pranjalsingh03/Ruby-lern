@@ -75,6 +75,14 @@ They are special variables that have the appearance of local variables but behav
     1.0e6                # scientific notation
     4E20                 # dot not required
     4e+20                # sign before exponential
+
+<h2>String Literals</h2>
+
+    Ruby class are simply sequences of 8-bit bytes and they are objects of class String. Double-qouted strings allow substitution and allow backslash notation only for \\ and \' .
+
+# Example
+    puts 'escape using"\\"';
+    puts 'That\'s right';
 <h2>NOTE</h2>
 
 1.    In Ruby, you CAN access value of any variable or constant by putting a hash (#) character just before that variable or constant.

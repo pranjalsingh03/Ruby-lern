@@ -110,6 +110,19 @@ Following is the list of Backslash notations supported by Ruby -
 <td>\M-\C-x </td><td>	Meta-Control-x</td></tr><tr>
 <td>\x </td><td>	Character x</td></tr>
 </table>
+
+<br>
+<h2>Ruby Arrays</h2>
+    Literals of Ruby Arrays are created by placing a comma - seperated series of object rerfrences
+    between the square brackets. A trailling comma is ignored.
+<br>
+
+# Example
+    ary =["magan", 18.19 ,20 , "This is a string"]
+    ary.each do |i|
+        puts i
+    end
+
 <h2>NOTE</h2>
 
 1.    In Ruby, you CAN access value of any variable or constant by putting a hash (#) character just before that variable or constant.

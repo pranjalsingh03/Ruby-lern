@@ -83,6 +83,29 @@ They are special variables that have the appearance of local variables but behav
 # Example
     puts 'escape using"\\"';
     puts 'That\'s right';
+
+<h2>Backslash Notations</h2>
+<br>
+Following is the list of Backslash notations supported by Ruby -
+
+<table>
+<th>Notation></th>
+<th>Character represented</th>
+<tr>
+<td>\n</td> 	<td>Newline (0x0a)</td></tr>
+<tr><td>\r</td> 	<td>Carriage return (0x0d)</td><tr>
+<td>\f</td> 	<td>Formfeed (0x0c)</td></tr><tr>
+<td>\b </td>	<td>Backspace (0x08)</td></tr>
+\a 	Bell (0x07)
+\e 	Escape (0x1b)
+\s 	Space (0x20)
+\nnn 	Octal notation (n being 0-7)
+\xnn 	Hexadecimal notation (n being 0-9, a-f, or A-F)
+\cx, \C-x 	Control-x
+\M-x 	Meta-x (c | 0x80)
+\M-\C-x 	Meta-Control-x
+\x 	Character x
+</table>
 <h2>NOTE</h2>
 
 1.    In Ruby, you CAN access value of any variable or constant by putting a hash (#) character just before that variable or constant.

@@ -41,7 +41,29 @@ They are special variables that have the appearance of local variables but behav
 
     * __LINE__ − The current line number in the source file.
 
+<h3>Ruby Basic Literals</h3>
 
+
+    The rules Ruby uses for literals are simple and intuitive. This section explains all basic Ruby Literals.
+
+<h3>Integer Numbers</h3>
+<br>
+
+    Ruby supports integer numbers. An integer number can range from -230 to 230-1 or -262 to 262-1. Integers within this range are objects of class Fixnum and integers outside this range are stored in objects of class Bignum.
+
+    You write integers using an optional leading sign, an optional base indicator (0 for octal, 0x for hex, or 0b for binary), followed by a string of digits in the appropriate base. Underscore characters are ignored in the digit string.
+
+# Example
+
+    123                  # Fixnum decimal
+    1_234                # Fixnum decimal with underline
+    -500                 # Negative Fixnum
+    0377                 # octal
+    0xff                 # hexadecimal
+    0b1011               # binary
+    ?a                   # character code for 'a'
+    ?\n                  # code for a newline (0x0a)
+    12345678901234567890 # Bignum
 
 <h2>NOTE</h2>
 

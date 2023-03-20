@@ -65,6 +65,16 @@ They are special variables that have the appearance of local variables but behav
     ?\n                  # code for a newline (0x0a)
     12345678901234567890 # Bignum
 
+<h2>Floating Numbers</h2>
+
+    Ruby supports floating numbers. They are also numbers but with decimals. Floating-point numbers are objects of class Float and can be any of the following −
+
+# Example
+    
+    123.4                # floating point value
+    1.0e6                # scientific notation
+    4E20                 # dot not required
+    4e+20                # sign before exponential
 <h2>NOTE</h2>
 
 1.    In Ruby, you CAN access value of any variable or constant by putting a hash (#) character just before that variable or constant.

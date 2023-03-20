@@ -123,6 +123,20 @@ Following is the list of Backslash notations supported by Ruby -
         puts i
     end
 
+<h2>Ruby Ranges</h2>
+    A range represents an interval which is a set of values with a start and an end .
+    Ranges may be constructed using the s..e and s..e litrals , or with range.new.
+
+    Ranges constructed using  ..run from the start to the end inclusively. Those created using ... exclude
+    the end value in the sequence.
+
+    A range (1..5) means it includes 1,2,3,4,5 values and a range (1...5)means it include 1,2,3,4 values
+
+# Example
+    (10..15).each do |n|
+        print n, ' '
+    end
+
 <h2>NOTE</h2>
 
 1.    In Ruby, you CAN access value of any variable or constant by putting a hash (#) character just before that variable or constant.

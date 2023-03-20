@@ -49,8 +49,8 @@ They are special variables that have the appearance of local variables but behav
 <h3>Integer Numbers</h3>
 <br>
 
-    Ruby supports integer numbers. An integer number can range from -230 to 230-1 or -262 to 262-1. 
-    Integers within this range are objects of class Fixnum and integers outside this range are stored in objects of class Bignum.
+    Ruby supports integer numbers. An integer number can range from -230 to 230-1 or -262 to 262-1. Integers within this 
+    range are objects of class Fixnum and integers outside this range are stored in objects of class Bignum.
 
     You write integers using an optional leading sign, an optional base indicator (0 for octal, 0x for hex, or 0b for binary), 
     followed by a string of digits in the appropriate base. Underscore characters are ignored in the digit string.

@@ -5,3 +5,5 @@ For Example , a+b is intrepeted as a+(b), where the + method in the object refer
 called with b as its argument.
 
 For each operator (+ - * / % ** & | ^ << >> && ||), there is a corresponding form of abbreviated assignment operator (+= -= etc.).
+
+<h2>Ruby Arithmetic operators</h2>

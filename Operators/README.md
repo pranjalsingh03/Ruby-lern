@@ -45,3 +45,5 @@ For each operator (+ - * / % ** & | ^ << >> && ||), there is a corresponding for
     <td>a**b will give 10 to the power 20</td>
   </tr>
 </table>
+
+<h2>Ruby Comparision Operators</h2>

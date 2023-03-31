@@ -24,6 +24,7 @@ For each operator (+ - * / % ** & | ^ << >> && ||), there is a corresponding for
     <td>Subtraction− Subtracts right hand operand from left hand operand.</td>
     <td>a - b will give -10</td>
   </tr>
+  
   <tr>
     <td>*</td>
     <td>Multiplication− Multiplies values on either side of the operator.</td>

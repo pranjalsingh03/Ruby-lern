@@ -63,3 +63,8 @@ Assume variable a holds 10 and variable b holds 20, then −
     <td>(a == b) is not true.</td>
   </tr>
   <tr>
+ <td>!=</td>
+    <td>Checks if the value of two operands are equal or not, if values are not equal then condition becomes true.</td>
+    <td>(a != b) is true.</td>
+  </tr>
+  <tr>

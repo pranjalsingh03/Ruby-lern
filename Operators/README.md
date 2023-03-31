@@ -49,3 +49,17 @@ For each operator (+ - * / % ** & | ^ << >> && ||), there is a corresponding for
 <h2>Ruby Comparision Operators</h2>
 
 Assume variable a holds 10 and variable b holds 20, then −
+
+ <table>
+
+  <tr>
+    <th>Operator</th>
+    <th>Description</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>==</td>
+    <td>Checks if the value of two operands are equal or not, if yes then condition becomes true.</td>
+    <td>(a == b) is not true.</td>
+  </tr>
+  <tr>

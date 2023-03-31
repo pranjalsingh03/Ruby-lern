@@ -68,3 +68,13 @@ Assume variable a holds 10 and variable b holds 20, then −
     <td>(a != b) is true.</td>
   </tr>
   <tr>
+ <td>&gt;</td>
+    <td>Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true.</td>
+    <td>(a &gt; b) is not true.</td>
+  </tr>
+  <tr>
+    <td>&lt;</td>
+    <td>Checks if the value of left operand is less than the value of right operand, if yes then condition becomes true.</td>
+    <td>(a &lt; b) is true.</td>
+  </tr>
+  <tr>

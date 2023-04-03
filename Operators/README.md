@@ -163,3 +163,7 @@ Assume variable a holds 10 and variable b holds 20, then −
 
 
 Ruby also supports the parallel assignment of variables. This enables multiple variables to be initialized with a single line of Ruby code. For example −
+
+  a = 10
+  b = 20
+  c = 30

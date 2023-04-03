@@ -111,4 +111,6 @@ Assume variable a holds 10 and variable b holds 20, then −
 </table>
 
 
-
+<h2>Ruby Assignment Operators</h2>
+<br>
+Assume variable a holds 10 and variable b holds 20, then −

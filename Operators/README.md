@@ -114,3 +114,46 @@ Assume variable a holds 10 and variable b holds 20, then −
 <h2>Ruby Assignment Operators</h2>
 <br>
 Assume variable a holds 10 and variable b holds 20, then −
+<br>
+<table>
+  <tr>
+    <th>Operator</th>
+    <th>Description</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>=</td>
+    <td>Simple assignment operator, assigns values from right side operands to left side operand.</td>
+    <td>c = a + b will assign the value of a + b into c</td>
+  </tr>
+  <tr>
+    <td>+=</td>
+    <td>Add AND assignment operator, adds right operand to the left operand and assign the result to left operand.</td>
+    <td>c += a is equivalent to c = c + a</td>
+  </tr>
+  <tr>
+    <td>-=</td>
+    <td>Subtract AND assignment operator, subtracts right operand from the left operand and assign the result to left operand.</td>
+    <td>c -= a is equivalent to c = c - a</td>
+  </tr>
+  <tr>
+    <td>*</td>
+    <td>Multiply AND assignment operator, multiplies right operand with the left operand and assign the result to left operand.</td>
+    <td>c *= a is equivalent to c = c * a</td>
+  </tr>
+  <tr>
+    <td>/=</td>
+    <td>Divide AND assignment operator, divides left operand with the right operand and assign the result to left operand.</td>
+    <td>c /= a is equivalent to c = c / a</td>
+  </tr>
+  <tr>
+    <td>%=</td>
+    <td>Modulus AND assignment operator, takes modulus using two operands and assign the result to left operand.</td>
+    <td>c %= a is equivalent to c = c % a</td>
+  </tr>
+  <tr>
+    <td>**=</td>
+    <td>Exponent AND assignment operator, performs exponential (power) calculation on operators and assign value to the left operand.</td>
+    <td>c **= a is equivalent to c = c ** a</td>
+  </tr>
+</table>

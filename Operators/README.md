@@ -112,7 +112,8 @@ Assume variable a holds 10 and variable b holds 20, then −
 
 
 <h2>Ruby Assignment Operators</h2>
-<br>
+
+
 Assume variable a holds 10 and variable b holds 20, then −
 <br>
 <table>
@@ -157,3 +158,8 @@ Assume variable a holds 10 and variable b holds 20, then −
     <td>c **= a is equivalent to c = c ** a</td>
   </tr>
 </table>
+
+<h2>Ruby Parallel Assignment</h2>
+
+
+Ruby also supports the parallel assignment of variables. This enables multiple variables to be initialized with a single line of Ruby code. For example −

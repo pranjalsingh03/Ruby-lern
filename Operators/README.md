@@ -178,3 +178,17 @@ This may be more quickly declared using parallel assignment −
 Parallel assignment is also useful for swapping the values held in two variables −
 
     a, b = b, c
+
+<h2>Ruby Bitwise Operators</h2>
+
+Bitwise operator works on bits and performs bit by bit operation.
+
+Assume if a = 60; and b = 13; now in binary format they will be as follows −
+
+    a    =  0011 1100
+    b    =  0000 1101
+    ------------------
+    a&b  =  0000 1100
+    a|b  =  0011 1101
+    a^b  =  0011 0001
+    ~a   =  1100 0011
